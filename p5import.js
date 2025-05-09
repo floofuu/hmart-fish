@@ -131,7 +131,7 @@ function draw() {
   button = createButton("reach for me?");
 
   button.style('background-color',col);
-  button.style('font-size', '15px');
+  button.style('font-size', '10px');
   button.style('border', '0px solid #000') ;
   button.style('border-radius', '5px');
   button.position(1200,500);
