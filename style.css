@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#camStream, #canvas {
+  left: 0;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  z-index: 0;
+}
+
+#canvasFinal {
+  display: block;
+  margin: 0 auto;
+  transform: scaleX(-1);
+  height: 100vh;
+  width: 100vw;
+  background-color: beige;
+  z-index: 0;
+}
+
+#next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+}
+
+#reach {
+  text-align: center;
+}
